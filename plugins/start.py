@@ -51,7 +51,7 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""👋 Hello {query.from_user.mention} \nI'm A Simple File Rename + File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support. """,
+            text=f"""👋 Hello {query.from_user.mention} \n\nI'm A Simple File Rename + File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support. """,
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("🤴 Developers", callback_data='dev')                
                 ],[
