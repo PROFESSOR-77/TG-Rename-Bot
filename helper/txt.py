@@ -42,6 +42,6 @@ Example:- /set_caption 📕 File Name: {filename}
     DEV_TXT = """
 <b><u>Special Thanks & Developers</b></u> 
 
-•> 💓 HeartBeat 💓 <a href=https://t.me/helloheartbeatboss>HeartBeat</a>
-•> 💓 Wanted 💓  <a href=https://t.me/MOVIE_HOUSE11</a>
+•> 💓 <a href=https://t.me/helloheartbeatboss>HeartBeat</a> 💓
+•> 💓 <a href=https://t.me/MOVIE_HOUSE11>Wanted</a> 💓
 """
