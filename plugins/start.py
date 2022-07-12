@@ -19,11 +19,11 @@ async def start(client, message):
     insert(int(message.chat.id))
     await message.reply_photo(
        photo=START_PIC,
-       caption=f"""👋 Hello {message.from_user.mention} \nI'm A Simple File Rename + File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support. """,
+       caption=f"""👋 Hello {message.from_user.mention} \n\nI'm A Simple File Rename + File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support. """,
        reply_markup=InlineKeyboardMarkup( [[
            InlineKeyboardButton("🤴 Developers", callback_data='dev')
            ],[
-           InlineKeyboardButton('Soon... 🔗', url='https://t.me/gdgyf'),
+           InlineKeyboardButton('🔗 Soon...', url='https://t.me/gdgytio_000'),
            InlineKeyboardButton('💭 Tech Masterz', url='https://t.me/TACH_MASTERZ')
            ],[
            InlineKeyboardButton('About 😎', callback_data='about'),
@@ -55,7 +55,7 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("🤴 Developers", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('Soon...🔗', url='https://t.me/gdgyf'),
+                InlineKeyboardButton('🔗 Soon...', url='https://t.me/gdgytio_000'),
                 InlineKeyboardButton('💭 Tech Masterz', url='https://t.me/TECH_MASTERZ')
                 ],[
                 InlineKeyboardButton('About 😎', callback_data='about'),
