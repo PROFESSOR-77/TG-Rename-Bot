@@ -23,8 +23,8 @@ async def start(client, message):
        reply_markup=InlineKeyboardMarkup( [[
            InlineKeyboardButton("🤴 Developers", callback_data='dev')
            ],[
-           InlineKeyboardButton('🔗 Soon...', url='https://t.me/gdgytio_000'),
-           InlineKeyboardButton('💭 Tech Masterz', url='https://t.me/TACH_MASTERZ')
+           InlineKeyboardButton('🔗 Join Group', url='https://t.me/+CTN55oTqaQYxYmY1'),
+           InlineKeyboardButton('💭 Updates Channel', url='https://t.me/Tech_Masters')
            ],[
            InlineKeyboardButton('About 😎', callback_data='about'),
            InlineKeyboardButton('ℹ️ Help', callback_data='help')
@@ -55,8 +55,8 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("🤴 Developers", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('🔗 Soon...', url='https://t.me/gdgytio_000'),
-                InlineKeyboardButton('💭 Tech Masterz', url='https://t.me/TECH_MASTERZ')
+                InlineKeyboardButton('🔗 Join Group', url='https://t.me/+CTN55oTqaQYxYmY1'),
+                InlineKeyboardButton('💭 Updates Channel', url='https://t.me/Tech_Masters')
                 ],[
                 InlineKeyboardButton('About 😎', callback_data='about'),
                 InlineKeyboardButton('ℹ️ Help', callback_data='help')
